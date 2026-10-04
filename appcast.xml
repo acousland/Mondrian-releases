@@ -6,6 +6,15 @@
     <description>Updates for Mondrian for macOS</description>
     <language>en</language>
     <item>
+      <title>Mondrian 1.21.0</title>
+      <pubDate>Mon, 05 Oct 2026 10:05:55 +1100</pubDate>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>1.21.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>&lt;p&gt;Connect Mondrian to your AI clients directly from &lt;strong&gt;Settings → AI Clients&lt;/strong&gt;.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Add or update Mondrian's local MCP connection in Claude Desktop, ChatGPT / Codex, and Claude Code.&lt;/li&gt;&lt;li&gt;See whether each client is configured, missing its connection, or needs an update to the helper path.&lt;/li&gt;&lt;li&gt;Preserve other servers and client settings, with a backup before each configuration change.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Install Mondrian in &lt;strong&gt;Applications&lt;/strong&gt;, choose your client in &lt;strong&gt;Settings → AI Clients&lt;/strong&gt;, and click &lt;strong&gt;Add Connection&lt;/strong&gt; or &lt;strong&gt;Update Connection&lt;/strong&gt;. Restart that client to load the change. Claude Code connections use your user configuration and are available across projects.&lt;/p&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
+      <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.21.0/Mondrian-1.21.0.dmg" sparkle:edSignature="OsFKKJtpbboMTYklAFxMQZ4XvBb9Ho7OeX2t4X5zbtr8TqOMcwI8WQAmtj+1QlVTWexlQAfX7v9GGM5ZDarPDA==" length="9932479" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Mondrian 1.20.0</title>
       <pubDate>Mon, 05 Oct 2026 09:47:21 +1100</pubDate>
       <sparkle:version>1</sparkle:version>

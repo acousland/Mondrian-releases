@@ -5,5 +5,14 @@
     <link>https://github.com/acousland/Mondrian-releases</link>
     <description>Updates for Mondrian for macOS</description>
     <language>en</language>
+    <item>
+      <title>Mondrian 1.20.0</title>
+      <pubDate>Mon, 05 Oct 2026 09:47:21 +1100</pubDate>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:shortVersionString>1.20.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>&lt;p&gt;The first release of Mondrian for macOS.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;A native diagram library, rendering engine, stencil editor, named history, comments, layout presets, and local MCP helper.&lt;/li&gt;&lt;li&gt;Mondrian uses its own application identity, setup instructions, and export attribution.&lt;/li&gt;&lt;li&gt;Compatible existing libraries remain in their current folders. Saved custom-library locations are inherited without moving or rewriting drawings, history, comments, stencils, presets, or attachments.&lt;/li&gt;&lt;li&gt;Missing custom libraries are reported as unavailable instead of being recreated empty.&lt;/li&gt;&lt;li&gt;Compatible saved appearance and drawing preferences are imported.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Quit the existing application and your AI clients, remove only the previous application bundle, and drag &lt;strong&gt;Mondrian.app&lt;/strong&gt; into &lt;strong&gt;Applications&lt;/strong&gt;. Keep your library folder and Application Support files. Update each AI client's helper command to &lt;strong&gt;Mondrian.app/Contents/MacOS/MondrianMCP&lt;/strong&gt; and restart the client. Select a library manually with &lt;strong&gt;Settings → General → Open Existing Library…&lt;/strong&gt; if necessary.&lt;/p&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
+      <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.20.0/Mondrian-1.20.0.dmg" sparkle:edSignature="qCvC6Dj9WoWAQNbR2IHO6rLfMFXI5AXYkKhZZEyTJ/lYn9F4Qnjafx8BJr2G1hT1bUhwI2T0yrTWUgiwb5w2Dg==" length="9645378" type="application/octet-stream" />
+    </item>
   </channel>
 </rss>

@@ -6,6 +6,15 @@
     <description>Updates for Mondrian for macOS</description>
     <language>en</language>
     <item>
+      <title>Mondrian 1.28.0</title>
+      <pubDate>Mon, 05 Oct 2026 17:21:42 +1100</pubDate>
+      <sparkle:version>18</sparkle:version>
+      <sparkle:shortVersionString>1.28.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>&lt;p&gt;New downloads include the curated stencil library and its folders.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Ships 12 default stencils, including &lt;strong&gt;Box&lt;/strong&gt;, &lt;strong&gt;Rounded Box&lt;/strong&gt;, &lt;strong&gt;Pill&lt;/strong&gt;, and &lt;strong&gt;Subject Areas&lt;/strong&gt;, with the curated Physical Application styling.&lt;/li&gt;&lt;li&gt;New libraries start with &lt;strong&gt;Applications&lt;/strong&gt;, &lt;strong&gt;Capabilities&lt;/strong&gt;, &lt;strong&gt;Data&lt;/strong&gt;, &lt;strong&gt;General&lt;/strong&gt;, and &lt;strong&gt;Technology&lt;/strong&gt; folders and the corresponding stencil assignments.&lt;/li&gt;&lt;li&gt;The UI and MCP discover the same bundled defaults. The six legacy APM application variants are no longer included in the default drawer; existing drawings using them remain supported.&lt;/li&gt;&lt;li&gt;Existing libraries retain their custom templates, deleted stencils, and folder organisation. Every bundled stencil can still be edited, deleted, and restored.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
+      <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.28.0/Mondrian-1.28.0.dmg" sparkle:edSignature="wqyRNQklm3txqeARlSuGi0lJpbsOGY+eeiyjd4TttDunDFVj1U6gZoeLYcH16xSz1AAAyvnWRSmUDBZ1C4y9CA==" length="10417924" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Mondrian 1.27.1</title>
       <pubDate>Mon, 05 Oct 2026 16:53:59 +1100</pubDate>
       <sparkle:version>17</sparkle:version>

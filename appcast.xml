@@ -6,6 +6,15 @@
     <description>Updates for Mondrian for macOS</description>
     <language>en</language>
     <item>
+      <title>Mondrian 1.25.2</title>
+      <pubDate>Mon, 05 Oct 2026 15:37:15 +1100</pubDate>
+      <sparkle:version>12</sparkle:version>
+      <sparkle:shortVersionString>1.25.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>&lt;p&gt;An Office-style ribbon keeps the drawing steady as you switch tabs.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Shapes, Connectors, Layout, and Display now share one fixed ribbon height. The drawing title and canvas stay in place when you change tabs or layout algorithms.&lt;/li&gt;&lt;li&gt;Related commands sit in equal-height groups with captions along the bottom and vertical separators. Main tools use large labelled icons; smaller controls occupy up to three rows.&lt;/li&gt;&lt;li&gt;All layout settings remain inline. Page, canvas, spacing, balance, alignment, APM bands, containers, and flow controls are grouped to fit the common ribbon grid. Narrow windows retain scrolling and navigation arrows.&lt;/li&gt;&lt;li&gt;De Stijl and Chalk, individual connector types, bend editing, automatic previews, and Save Version continue to work.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
+      <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.25.2/Mondrian-1.25.2.dmg" sparkle:edSignature="cZh8bc+svUodnIpRRz9AhY5+rX0y18mbtVI5t8A6cCocNIJLikbNkYbQl9ikE73rDx40EbNuOSIT5r14mklKDw==" length="10341941" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Mondrian 1.25.1</title>
       <pubDate>Mon, 05 Oct 2026 15:25:15 +1100</pubDate>
       <sparkle:version>11</sparkle:version>

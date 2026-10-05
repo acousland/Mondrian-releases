@@ -6,6 +6,15 @@
     <description>Updates for Mondrian for macOS</description>
     <language>en</language>
     <item>
+      <title>Mondrian 1.25.0</title>
+      <pubDate>Mon, 05 Oct 2026 15:10:44 +1100</pubDate>
+      <sparkle:version>10</sparkle:version>
+      <sparkle:shortVersionString>1.25.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>&lt;p&gt;A drawing ribbon brings Shapes, Connectors, Layout, and Display together beneath the title.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Switch ribbon tabs for shape tools and stencil editing, connector types and bends, layout algorithms and presets, or display and canvas settings. The ribbon adapts to smaller windows and works in De Stijl and Chalk.&lt;/li&gt;&lt;li&gt;Click a placed connector to select it, even while the Connect tool is active. The ribbon opens Connectors and highlights that line's type. Choose Smooth, Direct, or Right angle to change only the selected line.&lt;/li&gt;&lt;li&gt;Type changes support Undo, Save Version, and reopening. Attachment points, descriptions, and manual bends are retained; other connectors and the drawing default stay as they were. With no line selected, or while creating new lines, the type controls set the drawing default.&lt;/li&gt;&lt;li&gt;Existing AI client connections and drawing exports remain compatible.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
+      <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.25.0/Mondrian-1.25.0.dmg" sparkle:edSignature="+URhX5+l9esdDEqKMs6XWoiJ1mEvMHSImb3Iij1toPLjge5/v2yLQFbBgy17HK3iqobf2WkS8wIYySdl4D7nBA==" length="10294094" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Mondrian 1.24.0</title>
       <pubDate>Mon, 05 Oct 2026 14:57:10 +1100</pubDate>
       <sparkle:version>9</sparkle:version>

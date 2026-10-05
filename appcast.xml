@@ -6,6 +6,15 @@
     <description>Updates for Mondrian for macOS</description>
     <language>en</language>
     <item>
+      <title>Mondrian 1.22.1</title>
+      <pubDate>Mon, 05 Oct 2026 13:36:15 +1100</pubDate>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>1.22.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>&lt;p&gt;Improves selection contrast and lets you choose a light or dark canvas while the app stays in dark mode.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Selected library drawings and search results use native contrasting text, fixing dark text on the cobalt highlight in light mode.&lt;/li&gt;&lt;li&gt;In dark mode, click Light Canvas or Dark Canvas beside the zoom controls to switch the drawing's appearance. Your choice is remembered.&lt;/li&gt;&lt;li&gt;Switching the canvas preserves zoom, selection, and the drawing's original colours in saved files and exports.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Existing AI client connections continue to work without configuration changes.&lt;/p&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
+      <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.22.1/Mondrian-1.22.1.dmg" sparkle:edSignature="ju4J53EefA7nY4lO1T5j6M1CHppgGLC2i5OfzLbvXONH5Fub9bH6HiFxSnMY/j53DsrefFBJU+3CFcz0Oi2UCg==" length="9996943" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Mondrian 1.22.0</title>
       <pubDate>Mon, 05 Oct 2026 13:25:45 +1100</pubDate>
       <sparkle:version>4</sparkle:version>

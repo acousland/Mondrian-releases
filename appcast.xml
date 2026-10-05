@@ -6,6 +6,15 @@
     <description>Updates for Mondrian for macOS</description>
     <language>en</language>
     <item>
+      <title>Mondrian 1.24.0</title>
+      <pubDate>Mon, 05 Oct 2026 14:57:10 +1100</pubDate>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>1.24.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>&lt;p&gt;Edit right-angle connector routes and find drawing tools together beneath the title.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;The canvas toolbar groups Select, Shapes, Connect, and Smooth / Direct / Right angle. Its style picker edits the selected line, or sets the default for new lines while connecting. It adapts to narrower windows.&lt;/li&gt;&lt;li&gt;Select a right-angle line and click Add Bend, or double-click a segment, to add a detour. Drag the square segment handles to move its corners while keeping every segment horizontal or vertical.&lt;/li&gt;&lt;li&gt;Dragging previews the actual route without editing the drawing until release. Escape cancels; each completed edit uses one Undo action.&lt;/li&gt;&lt;li&gt;Manual bends survive Save Version, reopening, and all exports. Endpoints stay attached when shapes move or resize. Reset Route restores automatic routing, and the inspector and right-click menu also offer the bend actions.&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;AI clients can read and update manual routes through the existing MCP tools; connection settings remain compatible.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
+      <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.24.0/Mondrian-1.24.0.dmg" sparkle:edSignature="65zbDIBlFfx1uUcrjE9egsvtCOePDVb0CvLjWtm/pSesMsejw20hDymOZyTIA7wjB29f+l7Px9WbX1oKTM2SDg==" length="10245167" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Mondrian 1.23.1</title>
       <pubDate>Mon, 05 Oct 2026 14:37:39 +1100</pubDate>
       <sparkle:version>8</sparkle:version>

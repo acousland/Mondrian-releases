@@ -6,6 +6,15 @@
     <description>Updates for Mondrian for macOS</description>
     <language>en</language>
     <item>
+      <title>Mondrian 1.22.2</title>
+      <pubDate>Mon, 05 Oct 2026 13:44:34 +1100</pubDate>
+      <sparkle:version>6</sparkle:version>
+      <sparkle:shortVersionString>1.22.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>&lt;p&gt;Refines the sidebar spacing and moves the canvas appearance switch into Display.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;The library search field has balanced spacing below the Mondrian heading, with native search, clear, and keyboard behaviour.&lt;/li&gt;&lt;li&gt;In dark mode, open Display and switch Dark canvas on or off to choose a dark or light drawing. Your existing choice is kept.&lt;/li&gt;&lt;li&gt;The floating canvas bar contains zoom controls again. Canvas appearance still leaves saved colours and exports unchanged.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Existing AI client connections continue to work without configuration changes.&lt;/p&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
+      <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.22.2/Mondrian-1.22.2.dmg" sparkle:edSignature="RfXqptqVFrTM/6gDO2tn0JErdaDGkKQqRKYFmkQUvP3rmHLqLHZu3eqSmns2GKkYmNCvF5CFIHDYXlmhN7oWDQ==" length="9998492" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Mondrian 1.22.1</title>
       <pubDate>Mon, 05 Oct 2026 13:36:15 +1100</pubDate>
       <sparkle:version>5</sparkle:version>

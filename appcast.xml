@@ -6,6 +6,15 @@
     <description>Updates for Mondrian for macOS</description>
     <language>en</language>
     <item>
+      <title>Mondrian 1.27.1</title>
+      <pubDate>Mon, 05 Oct 2026 16:53:59 +1100</pubDate>
+      <sparkle:version>17</sparkle:version>
+      <sparkle:shortVersionString>1.27.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>&lt;p&gt;Delete is now available for every stencil, including built-ins.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Right-click any stencil for &lt;strong&gt;Delete Stencil…&lt;/strong&gt;. The Stencil Editor also always shows its &lt;strong&gt;Delete…&lt;/strong&gt; button when a stencil is selected.&lt;/li&gt;&lt;li&gt;Deleting a built-in removes it from this library’s drawer and discovery while preserving its template for existing drawings and saved history.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Restore Deleted&lt;/strong&gt; in the drawer and editor brings a deleted stencil back, retaining its prior customisation. &lt;strong&gt;Restore Default…&lt;/strong&gt; remains a separate action for customised built-ins.&lt;/li&gt;&lt;li&gt;MCP’s &lt;strong&gt;delete_stencil&lt;/strong&gt; now deletes built-ins too. &lt;strong&gt;restore_stencil&lt;/strong&gt; restores deleted templates or resets a built-in override. Fetch deleted templates with &lt;strong&gt;get_stencil(includeDeleted:true)&lt;/strong&gt;.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
+      <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.27.1/Mondrian-1.27.1.dmg" sparkle:edSignature="VE3CVgq2FkDTSataeRn3nYifXlCtGSBCXwvCMR4Ck0wyGDAFRcXoZ3VURzfNuIF7oJPkiykZoUto8e4+q5A/Bg==" length="10420990" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Mondrian 1.27.0</title>
       <pubDate>Mon, 05 Oct 2026 16:41:20 +1100</pubDate>
       <sparkle:version>16</sparkle:version>

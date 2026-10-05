@@ -6,6 +6,15 @@
     <description>Updates for Mondrian for macOS</description>
     <language>en</language>
     <item>
+      <title>Mondrian 1.22.0</title>
+      <pubDate>Mon, 05 Oct 2026 13:25:45 +1100</pubDate>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>1.22.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>&lt;p&gt;Introduces De Stijl light mode and Chalk dark mode, with warm surfaces, geometric branding, and coordinated controls.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Choose Light — De Stijl, Dark — Chalk, or Match System in Settings → General → Appearance.&lt;/li&gt;&lt;li&gt;Chalk adapts the diagram canvas, labels, connectors, legends, and built-in icons for dark backgrounds while preserving the original colours in saved drawings and exports.&lt;/li&gt;&lt;li&gt;Clearer drawing headings and an always-visible Export menu make it easier to work with your diagrams.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Existing AI client connections continue to work without configuration changes.&lt;/p&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
+      <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.22.0/Mondrian-1.22.0.dmg" sparkle:edSignature="pt0Ss6/q08kOgD+rFO85pUHZwxXoWyQQT7ilE95CXbmUTqaXXJwBYbKYos5RuH/YoQks3gxfhgqIpqjZ/5e5AQ==" length="9993633" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Mondrian 1.21.1</title>
       <pubDate>Mon, 05 Oct 2026 11:03:21 +1100</pubDate>
       <sparkle:version>3</sparkle:version>

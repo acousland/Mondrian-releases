@@ -6,6 +6,15 @@
     <description>Updates for Mondrian for macOS</description>
     <language>en</language>
     <item>
+      <title>Mondrian 1.26.0</title>
+      <pubDate>Mon, 05 Oct 2026 16:15:28 +1100</pubDate>
+      <sparkle:version>13</sparkle:version>
+      <sparkle:shortVersionString>1.26.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>&lt;p&gt;A studio rail gives Mondrian its own place beside the drawing workspace.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Mondrian's logo stays in a slim, persistent rail beside the Library and canvas. Rail buttons show or hide Library, open the Stencil Editor, and open Settings.&lt;/li&gt;&lt;li&gt;Collapsing Library gives the drawing more space while keeping its selection, pending edits, and inspector. Search Library restores the sidebar and focuses search.&lt;/li&gt;&lt;li&gt;The title bar identifies the app as Mondrian. The drawing name appears once beneath the ribbon, with its folder path, component count, connections, and current save.&lt;/li&gt;&lt;li&gt;The Library starts with its search and folder outline instead of a large app logo. The ribbon retains its common height, inline layout settings, individual connector types, and bend controls in De Stijl and Chalk.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
+      <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.26.0/Mondrian-1.26.0.dmg" sparkle:edSignature="Bmtkhzt4QsekugLRoaeE2Ww7ynhG+3rw9Hn1+CltA03qOGwvaZvqZ9WuInsVekrNwjEt/zT2Y9BbFrnACbznDw==" length="10352923" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Mondrian 1.25.2</title>
       <pubDate>Mon, 05 Oct 2026 15:37:15 +1100</pubDate>
       <sparkle:version>12</sparkle:version>

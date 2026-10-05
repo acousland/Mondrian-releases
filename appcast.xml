@@ -6,6 +6,15 @@
     <description>Updates for Mondrian for macOS</description>
     <language>en</language>
     <item>
+      <title>Mondrian 1.27.0</title>
+      <pubDate>Mon, 05 Oct 2026 16:41:20 +1100</pubDate>
+      <sparkle:version>16</sparkle:version>
+      <sparkle:shortVersionString>1.27.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>&lt;p&gt;Manage stencils from the drawer or your connected AI client.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Add a stencil with &lt;strong&gt;+&lt;/strong&gt; in the drawer. Right-click any stencil to open its editor; custom stencils also offer &lt;strong&gt;Delete Stencil…&lt;/strong&gt;, and customised built-ins offer &lt;strong&gt;Restore Default…&lt;/strong&gt;.&lt;/li&gt;&lt;li&gt;MCP now has explicit &lt;strong&gt;create_stencil&lt;/strong&gt; and &lt;strong&gt;update_stencil&lt;/strong&gt; tools. Updates patch only supplied fields, preserving images and other styling, and require the current stencil revision.&lt;/li&gt;&lt;li&gt;Stencil discovery returns names and revisions and uses the same catalogue as the UI, including APM application variants. Deleted custom templates are excluded from discovery while remaining available to existing drawings and saved history.&lt;/li&gt;&lt;li&gt;MCP deletion now preserves drawings and history, matching the UI. Built-in overrides can be customised and restored. Existing &lt;strong&gt;save_stencil&lt;/strong&gt; calls remain supported and now validate templates.&lt;/li&gt;&lt;li&gt;Stale MCP edits and deletions are rejected, as are UI deletions when a stencil changes while its confirmation is open.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
+      <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.27.0/Mondrian-1.27.0.dmg" sparkle:edSignature="IzLeamSo5vv5PzDRJUnOMTLMps/cZAFgj+c9ZJvWsxigD53n/WaSyev2MMUcPNutSXaTXpvo+LbzM+l7qv6YBA==" length="10385363" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Mondrian 1.26.2</title>
       <pubDate>Mon, 05 Oct 2026 16:26:52 +1100</pubDate>
       <sparkle:version>15</sparkle:version>

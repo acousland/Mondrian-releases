@@ -6,6 +6,15 @@
     <description>Updates for Mondrian for macOS</description>
     <language>en</language>
     <item>
+      <title>Mondrian 1.23.0</title>
+      <pubDate>Mon, 05 Oct 2026 14:21:24 +1100</pubDate>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>1.23.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>&lt;p&gt;Choose how connectors look and exactly where they attach to each shape.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Display offers Smooth, Direct, and Right angle connectors. Click a line to override its style in the inspector, or right-click it for the style menu.&lt;/li&gt;&lt;li&gt;Three connection points on every actual polygon edge: 9 on triangles, 12 on diamonds, and 18 on hexagons. Rectangles and curved shapes have 12 points around their outline.&lt;/li&gt;&lt;li&gt;Selected connectors show their available points. Drag an endpoint to another point on its shape, with a live route preview, or choose the point in the inspector. Auto spreads connections between points.&lt;/li&gt;&lt;li&gt;Undo, Revert, Save Version, reopening, and JSON/PNG/PDF/SVG/HTML exports preserve styles and pinned points. The MCP diagram contract exposes the same choices to AI clients.&lt;/li&gt;&lt;li&gt;Clear elbows and corridors route quickly on larger drawings. Smooth and right-angle lines avoid unrelated boxes where possible; direct lines stay straight and report any crossings.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Existing AI client connections continue to work without configuration changes.&lt;/p&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
+      <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.23.0/Mondrian-1.23.0.dmg" sparkle:edSignature="7oXSTF6qFG8Rl+C1hHkrlEzCKEthn8GggrLWs5o6bwqV8ZcSI62d+mrMKYwuuX4L5jMkJK1v/sHFqQuW7To1AQ==" length="10176190" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Mondrian 1.22.2</title>
       <pubDate>Mon, 05 Oct 2026 13:44:34 +1100</pubDate>
       <sparkle:version>6</sparkle:version>

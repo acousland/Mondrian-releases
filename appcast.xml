@@ -6,6 +6,15 @@
     <description>Updates for Mondrian for macOS</description>
     <language>en</language>
     <item>
+      <title>Mondrian 1.21.1</title>
+      <pubDate>Mon, 05 Oct 2026 11:03:21 +1100</pubDate>
+      <sparkle:version>3</sparkle:version>
+      <sparkle:shortVersionString>1.21.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>&lt;p&gt;Fixes a connection failure that prevented Mondrian's MCP tools from appearing in AI clients.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Accept modern clients' experimental capability objects during the MCP handshake.&lt;/li&gt;&lt;li&gt;Keep normal tool requests and drawing payloads unchanged.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Restart your AI client after installing this update to reload the helper. The connection is named &lt;strong&gt;mondrian-local&lt;/strong&gt;. Existing configuration entries continue to work; no setup changes are required.&lt;/p&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
+      <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.21.1/Mondrian-1.21.1.dmg" sparkle:edSignature="ZE8MTl9k42ONvggRVBKXt8Do5qtKxvxJKlnNLGEp+ErecP7OQHIscMqdzIP8Atoy5lIpaOYfECbQceLWS5SqDQ==" length="9945261" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Mondrian 1.21.0</title>
       <pubDate>Mon, 05 Oct 2026 10:05:55 +1100</pubDate>
       <sparkle:version>2</sparkle:version>

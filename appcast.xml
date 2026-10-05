@@ -6,6 +6,15 @@
     <description>Updates for Mondrian for macOS</description>
     <language>en</language>
     <item>
+      <title>Mondrian 1.23.1</title>
+      <pubDate>Mon, 05 Oct 2026 14:37:39 +1100</pubDate>
+      <sparkle:version>8</sparkle:version>
+      <sparkle:shortVersionString>1.23.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>&lt;p&gt;Add connectors directly in Mondrian with the new Connect tool.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Click Connect beside Export, or use Drawing → Connect Shapes (⇧⌘L). Drag from an attachment point on one shape to a point on another.&lt;/li&gt;&lt;li&gt;Available points appear on the canvas, with a live routed preview and target snapping. New lines follow the drawing's Smooth, Direct, or Right angle style and keep the chosen endpoints.&lt;/li&gt;&lt;li&gt;Connect stays active for adding several lines. Click Done or press Escape to finish; Escape during a drag cancels the preview, and dropping on empty space adds nothing.&lt;/li&gt;&lt;li&gt;Each completed drag is one Undo edit. Revert, Save Version, reopening, and exports preserve new connectors without moving the boxes. In drawings with a timeline, new connectors belong to the state shown.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Existing AI client connections continue to work without configuration changes.&lt;/p&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
+      <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.23.1/Mondrian-1.23.1.dmg" sparkle:edSignature="tDB7uOO49Ym5rHRcfBrNPfdx7TQqMRjfOXAQ+86wb4NhdqdsGQemPwUN0U7sC30t2huA71AYcpjm5XU4LqFUDA==" length="10184909" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Mondrian 1.23.0</title>
       <pubDate>Mon, 05 Oct 2026 14:21:24 +1100</pubDate>
       <sparkle:version>7</sparkle:version>

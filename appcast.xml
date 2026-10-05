@@ -6,6 +6,15 @@
     <description>Updates for Mondrian for macOS</description>
     <language>en</language>
     <item>
+      <title>Mondrian 1.29.0</title>
+      <pubDate>Mon, 05 Oct 2026 19:55:38 +1100</pubDate>
+      <sparkle:version>21</sparkle:version>
+      <sparkle:shortVersionString>1.29.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>&lt;p&gt;Place connector bends where you click.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Left-click a connector to open its usual menu. For a right-angle connector, &lt;strong&gt;Add Bend&lt;/strong&gt; inserts the bend at the clicked position along the line.&lt;/li&gt;&lt;li&gt;Right-click &lt;strong&gt;Add Bend&lt;/strong&gt; uses the clicked position too. Clicking a square handle opens the same menu; dragging it still moves the segment and its corners.&lt;/li&gt;&lt;li&gt;Placement works at every zoom level, keeps the endpoints attached, and supports Undo, Save Version, reopening, and exports.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
+      <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.29.0/Mondrian-1.29.0.dmg" sparkle:edSignature="4hxH+30eGm+yHEuam8pRrqgbFOwiMvR0pRYXWJun1co8UdI+73V/rM+GvM8yPtWQLGsqS0FmLfpQ0UhaBhJLBA==" length="10421723" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Mondrian 1.28.1</title>
       <pubDate>Mon, 05 Oct 2026 17:28:00 +1100</pubDate>
       <sparkle:version>19</sparkle:version>

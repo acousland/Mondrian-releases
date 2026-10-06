@@ -6,6 +6,15 @@
     <description>Updates for Mondrian for macOS</description>
     <language>en</language>
     <item>
+      <title>Mondrian 1.33.0</title>
+      <pubDate>Wed, 07 Oct 2026 10:28:24 +1100</pubDate>
+      <sparkle:version>25</sparkle:version>
+      <sparkle:shortVersionString>1.33.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>&lt;p&gt;Move folders and drawings between libraries.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Choose &lt;strong&gt;Move to Library…&lt;/strong&gt; on a folder's page, from a folder/drawing's right-click menu, or in the Drawing menu for the open drawing.&lt;/li&gt;&lt;li&gt;Pick an open or recent library, or browse to another existing library. Move to its root or select a destination folder. The active library stays open.&lt;/li&gt;&lt;li&gt;Folder moves include the complete subtree and empty folders. Saved drawings retain their version history, comments, metadata, saved layout settings, embedded images, connector bends and required stencils.&lt;/li&gt;&lt;li&gt;Existing destination drawings and stencil definitions are preserved. Colliding IDs and stencil keys are remapped, including references in history and state overrides. Local drawing preferences travel with UI moves.&lt;/li&gt;&lt;li&gt;Destination data is verified before source removal, and failed moves restore both libraries. Save pending edits before moving; library switches and backups wait for moves to finish.&lt;/li&gt;&lt;li&gt;AI clients can discover libraries and destination folders and perform the same moves through four new MCP tools. Library discovery also works with every library closed.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
+      <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.33.0/Mondrian-1.33.0.dmg" sparkle:edSignature="wWyVHYrMjmigaFkZ2fGARu+Dvi/mokNlfvT7lKtVTvqX0hG8UlyAViNoNYj+0mmlBvpjIlvfBUdymz7vbSX0CQ==" length="10896265" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Mondrian 1.32.0</title>
       <pubDate>Tue, 06 Oct 2026 19:23:29 +1100</pubDate>
       <sparkle:version>24</sparkle:version>
@@ -175,15 +184,6 @@
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description>&lt;p&gt;Introduces De Stijl light mode and Chalk dark mode, with warm surfaces, geometric branding, and coordinated controls.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Choose Light — De Stijl, Dark — Chalk, or Match System in Settings → General → Appearance.&lt;/li&gt;&lt;li&gt;Chalk adapts the diagram canvas, labels, connectors, legends, and built-in icons for dark backgrounds while preserving the original colours in saved drawings and exports.&lt;/li&gt;&lt;li&gt;Clearer drawing headings and an always-visible Export menu make it easier to work with your diagrams.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Existing AI client connections continue to work without configuration changes.&lt;/p&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
       <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.22.0/Mondrian-1.22.0.dmg" sparkle:edSignature="pt0Ss6/q08kOgD+rFO85pUHZwxXoWyQQT7ilE95CXbmUTqaXXJwBYbKYos5RuH/YoQks3gxfhgqIpqjZ/5e5AQ==" length="9993633" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Mondrian 1.21.1</title>
-      <pubDate>Mon, 05 Oct 2026 11:03:21 +1100</pubDate>
-      <sparkle:version>3</sparkle:version>
-      <sparkle:shortVersionString>1.21.1</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description>&lt;p&gt;Fixes a connection failure that prevented Mondrian's MCP tools from appearing in AI clients.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Accept modern clients' experimental capability objects during the MCP handshake.&lt;/li&gt;&lt;li&gt;Keep normal tool requests and drawing payloads unchanged.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Restart your AI client after installing this update to reload the helper. The connection is named &lt;strong&gt;mondrian-local&lt;/strong&gt;. Existing configuration entries continue to work; no setup changes are required.&lt;/p&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
-      <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.21.1/Mondrian-1.21.1.dmg" sparkle:edSignature="ZE8MTl9k42ONvggRVBKXt8Do5qtKxvxJKlnNLGEp+ErecP7OQHIscMqdzIP8Atoy5lIpaOYfECbQceLWS5SqDQ==" length="9945261" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

@@ -6,6 +6,15 @@
     <description>Updates for Mondrian for macOS</description>
     <language>en</language>
     <item>
+      <title>Mondrian 1.32.0</title>
+      <pubDate>Tue, 06 Oct 2026 19:23:29 +1100</pubDate>
+      <sparkle:version>24</sparkle:version>
+      <sparkle:shortVersionString>1.32.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>&lt;p&gt;Create, open, switch between, and close multiple drawing libraries.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Use the library-name menu above sidebar search, &lt;strong&gt;File → Libraries&lt;/strong&gt;, or &lt;strong&gt;Settings → General&lt;/strong&gt; to manage libraries. &lt;strong&gt;New Library…&lt;/strong&gt; creates a separate library folder; &lt;strong&gt;Open Library…&lt;/strong&gt; (⇧⌘O) opens an existing one.&lt;/li&gt;&lt;li&gt;Keep several libraries open, close individual libraries or all of them, and reopen from Recent Libraries. Open libraries and the active selection are remembered after quitting. Closing keeps all files on disk.&lt;/li&gt;&lt;li&gt;All windows and AI clients use the selected library. Each library keeps its own drawings, history, comments, stencils, presets, and local drawing preferences. Save pending edits before switching or closing the active library.&lt;/li&gt;&lt;li&gt;With every library closed, Mondrian shows New/Open controls and recent libraries. AI clients wait for an open library instead of creating an empty fallback library.&lt;/li&gt;&lt;li&gt;Also includes portable ZIP backups of folders or whole libraries, with saved drawings, subfolders, version history, comments, stencils, embedded images, presets, restore instructions, and file checksums. Unzip and open the extracted Mondrian Library folder to restore.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
+      <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.32.0/Mondrian-1.32.0.dmg" sparkle:edSignature="cE39+1SlEY9ASpWCpH+s8BT1pJSgBYQ+c1CYisgm7cQ6FuWQjxTbV4tRNsBTAXsm6Zq1NmucHRKhwaznEAs7AQ==" length="10674137" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Mondrian 1.30.0</title>
       <pubDate>Tue, 06 Oct 2026 07:41:22 +1100</pubDate>
       <sparkle:version>22</sparkle:version>
@@ -175,15 +184,6 @@
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description>&lt;p&gt;Fixes a connection failure that prevented Mondrian's MCP tools from appearing in AI clients.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Accept modern clients' experimental capability objects during the MCP handshake.&lt;/li&gt;&lt;li&gt;Keep normal tool requests and drawing payloads unchanged.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Restart your AI client after installing this update to reload the helper. The connection is named &lt;strong&gt;mondrian-local&lt;/strong&gt;. Existing configuration entries continue to work; no setup changes are required.&lt;/p&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
       <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.21.1/Mondrian-1.21.1.dmg" sparkle:edSignature="ZE8MTl9k42ONvggRVBKXt8Do5qtKxvxJKlnNLGEp+ErecP7OQHIscMqdzIP8Atoy5lIpaOYfECbQceLWS5SqDQ==" length="9945261" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Mondrian 1.21.0</title>
-      <pubDate>Mon, 05 Oct 2026 10:05:55 +1100</pubDate>
-      <sparkle:version>2</sparkle:version>
-      <sparkle:shortVersionString>1.21.0</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description>&lt;p&gt;Connect Mondrian to your AI clients directly from &lt;strong&gt;Settings → AI Clients&lt;/strong&gt;.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Add or update Mondrian's local MCP connection in Claude Desktop, ChatGPT / Codex, and Claude Code.&lt;/li&gt;&lt;li&gt;See whether each client is configured, missing its connection, or needs an update to the helper path.&lt;/li&gt;&lt;li&gt;Preserve other servers and client settings, with a backup before each configuration change.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Install Mondrian in &lt;strong&gt;Applications&lt;/strong&gt;, choose your client in &lt;strong&gt;Settings → AI Clients&lt;/strong&gt;, and click &lt;strong&gt;Add Connection&lt;/strong&gt; or &lt;strong&gt;Update Connection&lt;/strong&gt;. Restart that client to load the change. Claude Code connections use your user configuration and are available across projects.&lt;/p&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
-      <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.21.0/Mondrian-1.21.0.dmg" sparkle:edSignature="OsFKKJtpbboMTYklAFxMQZ4XvBb9Ho7OeX2t4X5zbtr8TqOMcwI8WQAmtj+1QlVTWexlQAfX7v9GGM5ZDarPDA==" length="9932479" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

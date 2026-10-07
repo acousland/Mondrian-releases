@@ -6,6 +6,15 @@
     <description>Updates for Mondrian for macOS</description>
     <language>en</language>
     <item>
+      <title>Mondrian 1.33.1</title>
+      <pubDate>Wed, 07 Oct 2026 11:11:07 +1100</pubDate>
+      <sparkle:version>26</sparkle:version>
+      <sparkle:shortVersionString>1.33.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>&lt;p&gt;More room for your drawing, with a ribbon that can stay open or collapse.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Export is now in &lt;strong&gt;File → Export&lt;/strong&gt; and drawing context menus, freeing space beside the drawing title.&lt;/li&gt;&lt;li&gt;Collapse the ribbon with its arrow. Its tabs stay visible; clicking a tab temporarily opens the controls over the title, without resizing the canvas. Click outside or press Escape to close them.&lt;/li&gt;&lt;li&gt;Pin the temporary ribbon to keep it open. Double-click any tab, use the ribbon context menu, or choose &lt;strong&gt;View → Always Show Ribbon&lt;/strong&gt; (⌥⌘R) to switch modes. The choice is remembered across windows and app launches.&lt;/li&gt;&lt;li&gt;Compact icon tabs keep every tab and the pin control available in narrow drawing panes.&lt;/li&gt;&lt;li&gt;The Stencils drawer now slides open and closed like Library. Switching between the two uses the same transition and retains the shared drawer width.&lt;/li&gt;&lt;li&gt;Native interaction checks cover temporary command clicks, outside-click delivery to the drawing, Escape, double-click pinning, remembered mode and preservation of pending edits.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
+      <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.33.1/Mondrian-1.33.1.dmg" sparkle:edSignature="H1fckF/m3Qq//qGObwF0qlk+thEF3DVmXuyHVKagu0uCY/AOIa17WwZGjcheLSk0ieugwu/OjsoxCUUPTuKfCQ==" length="10899661" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Mondrian 1.33.0</title>
       <pubDate>Wed, 07 Oct 2026 10:28:24 +1100</pubDate>
       <sparkle:version>25</sparkle:version>
@@ -175,15 +184,6 @@
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description>&lt;p&gt;Improves selection contrast and lets you choose a light or dark canvas while the app stays in dark mode.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Selected library drawings and search results use native contrasting text, fixing dark text on the cobalt highlight in light mode.&lt;/li&gt;&lt;li&gt;In dark mode, click Light Canvas or Dark Canvas beside the zoom controls to switch the drawing's appearance. Your choice is remembered.&lt;/li&gt;&lt;li&gt;Switching the canvas preserves zoom, selection, and the drawing's original colours in saved files and exports.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Existing AI client connections continue to work without configuration changes.&lt;/p&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
       <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.22.1/Mondrian-1.22.1.dmg" sparkle:edSignature="ju4J53EefA7nY4lO1T5j6M1CHppgGLC2i5OfzLbvXONH5Fub9bH6HiFxSnMY/j53DsrefFBJU+3CFcz0Oi2UCg==" length="9996943" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Mondrian 1.22.0</title>
-      <pubDate>Mon, 05 Oct 2026 13:25:45 +1100</pubDate>
-      <sparkle:version>4</sparkle:version>
-      <sparkle:shortVersionString>1.22.0</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description>&lt;p&gt;Introduces De Stijl light mode and Chalk dark mode, with warm surfaces, geometric branding, and coordinated controls.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Choose Light — De Stijl, Dark — Chalk, or Match System in Settings → General → Appearance.&lt;/li&gt;&lt;li&gt;Chalk adapts the diagram canvas, labels, connectors, legends, and built-in icons for dark backgrounds while preserving the original colours in saved drawings and exports.&lt;/li&gt;&lt;li&gt;Clearer drawing headings and an always-visible Export menu make it easier to work with your diagrams.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Existing AI client connections continue to work without configuration changes.&lt;/p&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
-      <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.22.0/Mondrian-1.22.0.dmg" sparkle:edSignature="pt0Ss6/q08kOgD+rFO85pUHZwxXoWyQQT7ilE95CXbmUTqaXXJwBYbKYos5RuH/YoQks3gxfhgqIpqjZ/5e5AQ==" length="9993633" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

@@ -6,6 +6,15 @@
     <description>Updates for Mondrian for macOS</description>
     <language>en</language>
     <item>
+      <title>Mondrian 1.33.4</title>
+      <pubDate>Thu, 08 Oct 2026 16:53:58 +1100</pubDate>
+      <sparkle:version>30</sparkle:version>
+      <sparkle:shortVersionString>1.33.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>&lt;p&gt;Open and close the inspector from a dedicated rail at the drawing's right edge.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;The right-side rail provides direct access to &lt;strong&gt;Details&lt;/strong&gt;, &lt;strong&gt;History&lt;/strong&gt;, and &lt;strong&gt;Comments&lt;/strong&gt;. Click an icon to open its panel, choose another to switch, or click the active icon again to close it.&lt;/li&gt;&lt;li&gt;The open panel's icon is highlighted. A dot on Comments indicates open comments, and each icon has a tooltip and an accessible label.&lt;/li&gt;&lt;li&gt;The inspector now has its own close button. Its native resizing and ⌃⌘I shortcut remain available. The toolbar's old History and Inspector buttons have moved to the rail.&lt;/li&gt;&lt;li&gt;Opening and closing panels preserves the drawing, selection, and unsaved edits. The rail stays in place when the inspector closes, and appears only while a drawing is open.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
+      <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.33.4/Mondrian-1.33.4.dmg" sparkle:edSignature="2MS+l+d9SLL2OTggA1dNSRYOm7Z28uy2FtAmKPXgRxZxDMs9qvBYf5QS3a7iesxXdXeyCf7leyqgcd3VuaN3Dw==" length="10911257" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Mondrian 1.33.3</title>
       <pubDate>Thu, 08 Oct 2026 12:33:09 +1100</pubDate>
       <sparkle:version>28</sparkle:version>
@@ -175,15 +184,6 @@
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description>&lt;p&gt;Add connectors directly in Mondrian with the new Connect tool.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Click Connect beside Export, or use Drawing → Connect Shapes (⇧⌘L). Drag from an attachment point on one shape to a point on another.&lt;/li&gt;&lt;li&gt;Available points appear on the canvas, with a live routed preview and target snapping. New lines follow the drawing's Smooth, Direct, or Right angle style and keep the chosen endpoints.&lt;/li&gt;&lt;li&gt;Connect stays active for adding several lines. Click Done or press Escape to finish; Escape during a drag cancels the preview, and dropping on empty space adds nothing.&lt;/li&gt;&lt;li&gt;Each completed drag is one Undo edit. Revert, Save Version, reopening, and exports preserve new connectors without moving the boxes. In drawings with a timeline, new connectors belong to the state shown.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Existing AI client connections continue to work without configuration changes.&lt;/p&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
       <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.23.1/Mondrian-1.23.1.dmg" sparkle:edSignature="tDB7uOO49Ym5rHRcfBrNPfdx7TQqMRjfOXAQ+86wb4NhdqdsGQemPwUN0U7sC30t2huA71AYcpjm5XU4LqFUDA==" length="10184909" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Mondrian 1.23.0</title>
-      <pubDate>Mon, 05 Oct 2026 14:21:24 +1100</pubDate>
-      <sparkle:version>7</sparkle:version>
-      <sparkle:shortVersionString>1.23.0</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description>&lt;p&gt;Choose how connectors look and exactly where they attach to each shape.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Display offers Smooth, Direct, and Right angle connectors. Click a line to override its style in the inspector, or right-click it for the style menu.&lt;/li&gt;&lt;li&gt;Three connection points on every actual polygon edge: 9 on triangles, 12 on diamonds, and 18 on hexagons. Rectangles and curved shapes have 12 points around their outline.&lt;/li&gt;&lt;li&gt;Selected connectors show their available points. Drag an endpoint to another point on its shape, with a live route preview, or choose the point in the inspector. Auto spreads connections between points.&lt;/li&gt;&lt;li&gt;Undo, Revert, Save Version, reopening, and JSON/PNG/PDF/SVG/HTML exports preserve styles and pinned points. The MCP diagram contract exposes the same choices to AI clients.&lt;/li&gt;&lt;li&gt;Clear elbows and corridors route quickly on larger drawings. Smooth and right-angle lines avoid unrelated boxes where possible; direct lines stay straight and report any crossings.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Existing AI client connections continue to work without configuration changes.&lt;/p&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
-      <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.23.0/Mondrian-1.23.0.dmg" sparkle:edSignature="7oXSTF6qFG8Rl+C1hHkrlEzCKEthn8GggrLWs5o6bwqV8ZcSI62d+mrMKYwuuX4L5jMkJK1v/sHFqQuW7To1AQ==" length="10176190" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

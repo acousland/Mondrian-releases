@@ -6,6 +6,15 @@
     <description>Updates for Mondrian for macOS</description>
     <language>en</language>
     <item>
+      <title>Mondrian 1.33.7</title>
+      <pubDate>Mon, 12 Oct 2026 10:15:58 +1100</pubDate>
+      <sparkle:version>33</sparkle:version>
+      <sparkle:shortVersionString>1.33.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>&lt;p&gt;Choose Auto-route or Free-form directly in the drawing header.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;The header stays above the ribbon, with a visible &lt;strong&gt;Auto-route / Free-form&lt;/strong&gt; switch beside the title. In narrow workspaces, the switch moves below the title. The Drawing menu offers the same modes.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Auto-route&lt;/strong&gt; shows Structure, Connectors, Layout, and Display. Layout contains the automatic algorithms and an Apply Layout action. Returning to Auto-route uses the last automatic algorithm chosen for that drawing.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Free-form&lt;/strong&gt; keeps the positions and sizes currently on screen, including unsaved layout previews and every timeline state. It shows Draw, Connectors, Arrange, and Display, with layers, locks, selection arrangement, and snapping close at hand. Connecting lines can still route automatically in both modes.&lt;/li&gt;&lt;li&gt;Mode changes support Undo and Redo. &lt;strong&gt;Save Version&lt;/strong&gt; remembers the mode with each drawing; history shows the mode saved in that version. Locks protect items from automatic rearrangement too, and an unsuccessful mode change keeps the current drawing intact.&lt;/li&gt;&lt;li&gt;The switch is disabled during history viewing, state comparison, saving, and open editors.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
+      <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.33.7/Mondrian-1.33.7.dmg" sparkle:edSignature="VW7sGgXRBS8u/0BCebwRdiFQ/+RKiGd2EbV+cqE9ae4CCht1szASpLxVwLfrY5kmyPcp3zvNw34N819TjAewAg==" length="11286079" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Mondrian 1.33.6</title>
       <pubDate>Mon, 12 Oct 2026 09:55:59 +1100</pubDate>
       <sparkle:version>32</sparkle:version>
@@ -175,15 +184,6 @@
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description>&lt;p&gt;A ribbon above the drawing title puts layout controls directly within reach.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;The Shapes, Connectors, Layout, and Display tabs now have icons, and the ribbon sits above the drawing title.&lt;/li&gt;&lt;li&gt;Layout shows presets, algorithms, page size, orientation, canvas size, header spacing, and every setting for the current algorithm inline. Use typed values, steppers, pickers, and checkboxes; changes preview automatically and Save Version keeps them.&lt;/li&gt;&lt;li&gt;Scroll horizontally through layout groups in smaller windows. Balanced nesting, APM bands, flex flow, grids, treemaps, and free-form layouts show their own relevant controls in De Stijl and Chalk.&lt;/li&gt;&lt;li&gt;Selecting a placed connector still reveals its individual type and bend controls in the Connectors tab.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
       <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.25.1/Mondrian-1.25.1.dmg" sparkle:edSignature="tfRYjJ01l4Brn7yqoA2SVOKgumK2qhQEoinemoVbEmxBnObRTj6QBN+mQXqNRqxFW+WvnP4H7VGxHXkkllWZDg==" length="10338466" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Mondrian 1.25.0</title>
-      <pubDate>Mon, 05 Oct 2026 15:10:44 +1100</pubDate>
-      <sparkle:version>10</sparkle:version>
-      <sparkle:shortVersionString>1.25.0</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description>&lt;p&gt;A drawing ribbon brings Shapes, Connectors, Layout, and Display together beneath the title.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Switch ribbon tabs for shape tools and stencil editing, connector types and bends, layout algorithms and presets, or display and canvas settings. The ribbon adapts to smaller windows and works in De Stijl and Chalk.&lt;/li&gt;&lt;li&gt;Click a placed connector to select it, even while the Connect tool is active. The ribbon opens Connectors and highlights that line's type. Choose Smooth, Direct, or Right angle to change only the selected line.&lt;/li&gt;&lt;li&gt;Type changes support Undo, Save Version, and reopening. Attachment points, descriptions, and manual bends are retained; other connectors and the drawing default stay as they were. With no line selected, or while creating new lines, the type controls set the drawing default.&lt;/li&gt;&lt;li&gt;Existing AI client connections and drawing exports remain compatible.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
-      <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.25.0/Mondrian-1.25.0.dmg" sparkle:edSignature="+URhX5+l9esdDEqKMs6XWoiJ1mEvMHSImb3Iij1toPLjge5/v2yLQFbBgy17HK3iqobf2WkS8wIYySdl4D7nBA==" length="10294094" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

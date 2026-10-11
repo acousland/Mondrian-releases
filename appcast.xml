@@ -6,6 +6,15 @@
     <description>Updates for Mondrian for macOS</description>
     <language>en</language>
     <item>
+      <title>Mondrian 1.33.5</title>
+      <pubDate>Mon, 12 Oct 2026 09:28:42 +1100</pubDate>
+      <sparkle:version>31</sparkle:version>
+      <sparkle:shortVersionString>1.33.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>&lt;p&gt;The sidebar now starts with your folders directly beneath search.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Removed the redundant &lt;strong&gt;Library&lt;/strong&gt; row and drawing-count badge from the sidebar.&lt;/li&gt;&lt;li&gt;Folders and unfiled drawings remain available below search, with the library picker at the top.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
+      <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.33.5/Mondrian-1.33.5.dmg" sparkle:edSignature="43JtVvR6Xb2S+35I+T4UgD1EfMZJeSj33kPyqlZSfnuro5jrwj6RK4MRHZMgqmbaLf5xWMmbv1MyTUHtg3t/Dw==" length="10909486" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Mondrian 1.33.4</title>
       <pubDate>Thu, 08 Oct 2026 16:53:58 +1100</pubDate>
       <sparkle:version>30</sparkle:version>
@@ -175,15 +184,6 @@
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description>&lt;p&gt;Edit right-angle connector routes and find drawing tools together beneath the title.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;The canvas toolbar groups Select, Shapes, Connect, and Smooth / Direct / Right angle. Its style picker edits the selected line, or sets the default for new lines while connecting. It adapts to narrower windows.&lt;/li&gt;&lt;li&gt;Select a right-angle line and click Add Bend, or double-click a segment, to add a detour. Drag the square segment handles to move its corners while keeping every segment horizontal or vertical.&lt;/li&gt;&lt;li&gt;Dragging previews the actual route without editing the drawing until release. Escape cancels; each completed edit uses one Undo action.&lt;/li&gt;&lt;li&gt;Manual bends survive Save Version, reopening, and all exports. Endpoints stay attached when shapes move or resize. Reset Route restores automatic routing, and the inspector and right-click menu also offer the bend actions.&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;AI clients can read and update manual routes through the existing MCP tools; connection settings remain compatible.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
       <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.24.0/Mondrian-1.24.0.dmg" sparkle:edSignature="65zbDIBlFfx1uUcrjE9egsvtCOePDVb0CvLjWtm/pSesMsejw20hDymOZyTIA7wjB29f+l7Px9WbX1oKTM2SDg==" length="10245167" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Mondrian 1.23.1</title>
-      <pubDate>Mon, 05 Oct 2026 14:37:39 +1100</pubDate>
-      <sparkle:version>8</sparkle:version>
-      <sparkle:shortVersionString>1.23.1</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description>&lt;p&gt;Add connectors directly in Mondrian with the new Connect tool.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Click Connect beside Export, or use Drawing → Connect Shapes (⇧⌘L). Drag from an attachment point on one shape to a point on another.&lt;/li&gt;&lt;li&gt;Available points appear on the canvas, with a live routed preview and target snapping. New lines follow the drawing's Smooth, Direct, or Right angle style and keep the chosen endpoints.&lt;/li&gt;&lt;li&gt;Connect stays active for adding several lines. Click Done or press Escape to finish; Escape during a drag cancels the preview, and dropping on empty space adds nothing.&lt;/li&gt;&lt;li&gt;Each completed drag is one Undo edit. Revert, Save Version, reopening, and exports preserve new connectors without moving the boxes. In drawings with a timeline, new connectors belong to the state shown.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Existing AI client connections continue to work without configuration changes.&lt;/p&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
-      <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.23.1/Mondrian-1.23.1.dmg" sparkle:edSignature="tDB7uOO49Ym5rHRcfBrNPfdx7TQqMRjfOXAQ+86wb4NhdqdsGQemPwUN0U7sC30t2huA71AYcpjm5XU4LqFUDA==" length="10184909" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

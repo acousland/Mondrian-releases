@@ -6,6 +6,15 @@
     <description>Updates for Mondrian for macOS</description>
     <language>en</language>
     <item>
+      <title>Mondrian 1.33.6</title>
+      <pubDate>Mon, 12 Oct 2026 09:55:59 +1100</pubDate>
+      <sparkle:version>32</sparkle:version>
+      <sparkle:shortVersionString>1.33.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>&lt;p&gt;Free-form drawing now has layers, locking, multiple selection, and arrangement tools.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Open &lt;strong&gt;Layers&lt;/strong&gt; from the right rail or Shapes ribbon. Create and rename layers, drag to reorder them, show or hide their contents, and lock a whole layer. Choose a layer for new shapes and connectors, or move a selection between layers. Removing a layer keeps its items in Objects.&lt;/li&gt;&lt;li&gt;Lock individual shapes and connectors from Layers, the context menu, or &lt;strong&gt;Arrange → Lock Selection&lt;/strong&gt; (⌘L). Locks protect movement, resizing, edits, and deletion, including indirect changes through containers. Locked items remain available in Layers for inspection and unlocking.&lt;/li&gt;&lt;li&gt;Shift-click shapes or connectors, drag a selection rectangle, or use ⌘A to select several unlocked items. Move shapes together, duplicate the selection (⌘D), delete it with confirmation, or lock it. Containers carry their contents once, even when their children are selected too.&lt;/li&gt;&lt;li&gt;Use &lt;strong&gt;Arrange&lt;/strong&gt; to align edges or centres, distribute shapes evenly, or change sibling stacking order. Arrow keys nudge by one point; Shift-arrow nudges by ten. Snapping guides help align drags; hold Option to bypass them, or turn off Snap in the Shapes ribbon. Pan with a right-button drag or Space-drag.&lt;/li&gt;&lt;li&gt;Layers, locks, and stacking are shared across current/target states and retained by Save Version and Undo/Redo. Hidden content is omitted from rendered exports; JSON keeps every item. The MCP helper supports the same layer and selection commands with revision and lock checks.&lt;/li&gt;&lt;li&gt;Duplicate Selection now uses ⌘D; duplicating the whole drawing uses ⌥⌘D.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
+      <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.33.6/Mondrian-1.33.6.dmg" sparkle:edSignature="uNugx+rhvS8rxwUTS4uDaZ76pjyBjwtJ4Prqe1ioJXb06U4VVjiiwtTwKtbuLQ6g/pzc6m3xDhzWaBJ0hNJpDA==" length="11259534" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Mondrian 1.33.5</title>
       <pubDate>Mon, 12 Oct 2026 09:28:42 +1100</pubDate>
       <sparkle:version>31</sparkle:version>
@@ -175,15 +184,6 @@
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description>&lt;p&gt;A drawing ribbon brings Shapes, Connectors, Layout, and Display together beneath the title.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Switch ribbon tabs for shape tools and stencil editing, connector types and bends, layout algorithms and presets, or display and canvas settings. The ribbon adapts to smaller windows and works in De Stijl and Chalk.&lt;/li&gt;&lt;li&gt;Click a placed connector to select it, even while the Connect tool is active. The ribbon opens Connectors and highlights that line's type. Choose Smooth, Direct, or Right angle to change only the selected line.&lt;/li&gt;&lt;li&gt;Type changes support Undo, Save Version, and reopening. Attachment points, descriptions, and manual bends are retained; other connectors and the drawing default stay as they were. With no line selected, or while creating new lines, the type controls set the drawing default.&lt;/li&gt;&lt;li&gt;Existing AI client connections and drawing exports remain compatible.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
       <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.25.0/Mondrian-1.25.0.dmg" sparkle:edSignature="+URhX5+l9esdDEqKMs6XWoiJ1mEvMHSImb3Iij1toPLjge5/v2yLQFbBgy17HK3iqobf2WkS8wIYySdl4D7nBA==" length="10294094" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Mondrian 1.24.0</title>
-      <pubDate>Mon, 05 Oct 2026 14:57:10 +1100</pubDate>
-      <sparkle:version>9</sparkle:version>
-      <sparkle:shortVersionString>1.24.0</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description>&lt;p&gt;Edit right-angle connector routes and find drawing tools together beneath the title.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;The canvas toolbar groups Select, Shapes, Connect, and Smooth / Direct / Right angle. Its style picker edits the selected line, or sets the default for new lines while connecting. It adapts to narrower windows.&lt;/li&gt;&lt;li&gt;Select a right-angle line and click Add Bend, or double-click a segment, to add a detour. Drag the square segment handles to move its corners while keeping every segment horizontal or vertical.&lt;/li&gt;&lt;li&gt;Dragging previews the actual route without editing the drawing until release. Escape cancels; each completed edit uses one Undo action.&lt;/li&gt;&lt;li&gt;Manual bends survive Save Version, reopening, and all exports. Endpoints stay attached when shapes move or resize. Reset Route restores automatic routing, and the inspector and right-click menu also offer the bend actions.&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;AI clients can read and update manual routes through the existing MCP tools; connection settings remain compatible.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
-      <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.24.0/Mondrian-1.24.0.dmg" sparkle:edSignature="65zbDIBlFfx1uUcrjE9egsvtCOePDVb0CvLjWtm/pSesMsejw20hDymOZyTIA7wjB29f+l7Px9WbX1oKTM2SDg==" length="10245167" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

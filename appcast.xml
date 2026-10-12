@@ -6,6 +6,15 @@
     <description>Updates for Mondrian for macOS</description>
     <language>en</language>
     <item>
+      <title>Mondrian 1.33.9</title>
+      <pubDate>Mon, 12 Oct 2026 11:41:13 +1100</pubDate>
+      <sparkle:version>39</sparkle:version>
+      <sparkle:shortVersionString>1.33.9</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>&lt;p&gt;Standard drawing-order controls are directly available on the canvas.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Right-click a Free-form shape or group for &lt;strong&gt;Bring to Front&lt;/strong&gt;, &lt;strong&gt;Bring Forward&lt;/strong&gt;, &lt;strong&gt;Send Backward&lt;/strong&gt;, and &lt;strong&gt;Send to Back&lt;/strong&gt;. These commands now appear directly in the menu, with their shortcuts shown.&lt;/li&gt;&lt;li&gt;Use &lt;strong&gt;⌥⌘]&lt;/strong&gt; and &lt;strong&gt;⌥⌘[&lt;/strong&gt; to move one step forward/backward. Add &lt;strong&gt;Shift&lt;/strong&gt; to move to the front/back. Existing history-navigation shortcuts stay available. The Arrange menu and classic ribbon offer the same commands.&lt;/li&gt;&lt;li&gt;Ordering works across different stencil types within a drawing layer. Reordering a container carries its contents together and keeps the parent behind its children. Named drawing layers retain their own order; frames stay behind drawing objects and do not consume ordering steps.&lt;/li&gt;&lt;li&gt;Ordering supports Undo, Redo, Save Version, reopening, and rendered exports, and respects item/layer locks. Automatic layout rendering retains its existing depth order.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
+      <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.33.9/Mondrian-1.33.9.dmg" sparkle:edSignature="E/Z1JO2lMl6jWSS5XVm+sxzzMIviSYH4E9IBojtwsYgA+xUmLBU6OZf160LMduHywEBJ6K3RKzeOtW7mQjGPAg==" length="11645394" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Mondrian 1.33.8</title>
       <pubDate>Mon, 12 Oct 2026 11:08:36 +1100</pubDate>
       <sparkle:version>36</sparkle:version>
@@ -175,15 +184,6 @@
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description>&lt;p&gt;A studio rail gives Mondrian its own place beside the drawing workspace.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Mondrian's logo stays in a slim, persistent rail beside the Library and canvas. Rail buttons show or hide Library, open the Stencil Editor, and open Settings.&lt;/li&gt;&lt;li&gt;Collapsing Library gives the drawing more space while keeping its selection, pending edits, and inspector. Search Library restores the sidebar and focuses search.&lt;/li&gt;&lt;li&gt;The title bar identifies the app as Mondrian. The drawing name appears once beneath the ribbon, with its folder path, component count, connections, and current save.&lt;/li&gt;&lt;li&gt;The Library starts with its search and folder outline instead of a large app logo. The ribbon retains its common height, inline layout settings, individual connector types, and bend controls in De Stijl and Chalk.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
       <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.26.0/Mondrian-1.26.0.dmg" sparkle:edSignature="Bmtkhzt4QsekugLRoaeE2Ww7ynhG+3rw9Hn1+CltA03qOGwvaZvqZ9WuInsVekrNwjEt/zT2Y9BbFrnACbznDw==" length="10352923" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Mondrian 1.25.2</title>
-      <pubDate>Mon, 05 Oct 2026 15:37:15 +1100</pubDate>
-      <sparkle:version>12</sparkle:version>
-      <sparkle:shortVersionString>1.25.2</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description>&lt;p&gt;An Office-style ribbon keeps the drawing steady as you switch tabs.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Shapes, Connectors, Layout, and Display now share one fixed ribbon height. The drawing title and canvas stay in place when you change tabs or layout algorithms.&lt;/li&gt;&lt;li&gt;Related commands sit in equal-height groups with captions along the bottom and vertical separators. Main tools use large labelled icons; smaller controls occupy up to three rows.&lt;/li&gt;&lt;li&gt;All layout settings remain inline. Page, canvas, spacing, balance, alignment, APM bands, containers, and flow controls are grouped to fit the common ribbon grid. Narrow windows retain scrolling and navigation arrows.&lt;/li&gt;&lt;li&gt;De Stijl and Chalk, individual connector types, bend editing, automatic previews, and Save Version continue to work.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
-      <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.25.2/Mondrian-1.25.2.dmg" sparkle:edSignature="cZh8bc+svUodnIpRRz9AhY5+rX0y18mbtVI5t8A6cCocNIJLikbNkYbQl9ikE73rDx40EbNuOSIT5r14mklKDw==" length="10341941" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

@@ -6,6 +6,15 @@
     <description>Updates for Mondrian for macOS</description>
     <language>en</language>
     <item>
+      <title>Mondrian 1.33.10</title>
+      <pubDate>Mon, 12 Oct 2026 12:47:11 +1100</pubDate>
+      <sparkle:version>40</sparkle:version>
+      <sparkle:shortVersionString>1.33.10</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>&lt;p&gt;Automation runs when you ask for it, on one freely editable canvas.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Replace the Auto-route / Free-form switch with &lt;strong&gt;Arrange Drawing&lt;/strong&gt;, &lt;strong&gt;Arrange Selection&lt;/strong&gt;, and &lt;strong&gt;Route Connectors&lt;/strong&gt;, available from the header and Drawing menu. Keep the classic Draw / Connectors / Layout / Display ribbon.&lt;/li&gt;&lt;li&gt;Choose an algorithm and settings in Layout, then run an arrangement command once. Adding or editing shapes, changing descriptions or states, and adjusting layout settings leave existing positions alone. Saved drawings remain directly editable after reopening.&lt;/li&gt;&lt;li&gt;Arrange Selection keeps other shapes in place, includes container descendants, and moves visual groups together. Locked and hidden content, their enclosing trees, and standalone annotations stay fixed. Include the parent container if a partial arrangement needs more room.&lt;/li&gt;&lt;li&gt;Route Connectors calculates editable right-angle paths without moving shapes. A selection limits the affected connectors; no selection routes all visible, unlocked connectors. This explicit command replaces old bends, while arranging shapes preserves manual routes. Reset Route restores automatic routing for an individual line.&lt;/li&gt;&lt;li&gt;Arrangement and routing support Undo/Redo, Save Version, reopening, and rendered exports. Existing saved drawings retain their visible geometry. AI individual and state edits also retain positions unless layout is explicitly requested.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
+      <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.33.10/Mondrian-1.33.10.dmg" sparkle:edSignature="alFseuC+q8xf5oo/WDu2TZWerG+i84TD2nVtSYao2GaCkuHFgUDwAwSJ8t32vMBrRvZH+lGjwrzD6Ud75uLPDw==" length="11705282" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Mondrian 1.33.9</title>
       <pubDate>Mon, 12 Oct 2026 11:41:13 +1100</pubDate>
       <sparkle:version>39</sparkle:version>
@@ -175,15 +184,6 @@
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description>&lt;p&gt;Open stencils from the studio rail, then choose when to edit them.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;The rail’s Stencils button now opens or closes the stencil drawer and highlights while it is open.&lt;/li&gt;&lt;li&gt;Choose &lt;strong&gt;Edit Stencils…&lt;/strong&gt; at the bottom of the drawer to open the Stencil Editor. The ribbon’s editor button uses the same clear label.&lt;/li&gt;&lt;li&gt;Browse stencils while viewing Library or a folder, or while previewing an old save. Placement remains available only in an editable drawing.&lt;/li&gt;&lt;li&gt;Opening the editor keeps the drawer in place, ready to use when you finish editing.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
       <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.26.1/Mondrian-1.26.1.dmg" sparkle:edSignature="pLhKQ8j1G8ccMO4+w4MYtw+2zmf5+kEzSnq0ZT9iiNNSto+957zX6COVqKXejYawew2QPLOCrh1dKVRvSQ28BQ==" length="10357893" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Mondrian 1.26.0</title>
-      <pubDate>Mon, 05 Oct 2026 16:15:28 +1100</pubDate>
-      <sparkle:version>13</sparkle:version>
-      <sparkle:shortVersionString>1.26.0</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description>&lt;p&gt;A studio rail gives Mondrian its own place beside the drawing workspace.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Mondrian's logo stays in a slim, persistent rail beside the Library and canvas. Rail buttons show or hide Library, open the Stencil Editor, and open Settings.&lt;/li&gt;&lt;li&gt;Collapsing Library gives the drawing more space while keeping its selection, pending edits, and inspector. Search Library restores the sidebar and focuses search.&lt;/li&gt;&lt;li&gt;The title bar identifies the app as Mondrian. The drawing name appears once beneath the ribbon, with its folder path, component count, connections, and current save.&lt;/li&gt;&lt;li&gt;The Library starts with its search and folder outline instead of a large app logo. The ribbon retains its common height, inline layout settings, individual connector types, and bend controls in De Stijl and Chalk.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
-      <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.26.0/Mondrian-1.26.0.dmg" sparkle:edSignature="Bmtkhzt4QsekugLRoaeE2Ww7ynhG+3rw9Hn1+CltA03qOGwvaZvqZ9WuInsVekrNwjEt/zT2Y9BbFrnACbznDw==" length="10352923" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

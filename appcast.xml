@@ -6,6 +6,15 @@
     <description>Updates for Mondrian for macOS</description>
     <language>en</language>
     <item>
+      <title>Mondrian 1.33.11</title>
+      <pubDate>Tue, 13 Oct 2026 08:29:51 +1100</pubDate>
+      <sparkle:version>41</sparkle:version>
+      <sparkle:shortVersionString>1.33.11</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>&lt;p&gt;Focus on a drawing, in your window or across the whole screen.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Focus View&lt;/strong&gt; (⇧⌘F) hides navigation, drawers, the drawing heading, ribbon, inspector, floating controls, scrollbars, and native window buttons. The visible drawing is fitted and centered, including rotated shapes, connectors, its document heading, and legend.&lt;/li&gt;&lt;li&gt;Pan and zoom in Focus without selecting or moving objects. &lt;strong&gt;Escape&lt;/strong&gt;, &lt;strong&gt;View › Exit Focus View&lt;/strong&gt;, or the drawing’s right-click menu restores the workspace. Opening Find, Library, or an inspector also reveals its controls.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Full Screen&lt;/strong&gt; (⌃⌘F) uses native macOS full screen, with an expand/contract button in the drawing header and commands in View. The green window button stays synchronized with the app.&lt;/li&gt;&lt;li&gt;Focus and Full Screen work independently and together. Leaving Focus keeps Full Screen active; toggling Full Screen returns to the desktop window. Previously chosen drawers, inspector tabs, selection, and pending edits are preserved.&lt;/li&gt;&lt;li&gt;These are window view settings: they do not rearrange objects, create document edits, change saved versions, or affect exports.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
+      <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.33.11/Mondrian-1.33.11.dmg" sparkle:edSignature="qnpHQOoVqMK/AXwO2zFGyfo8sbU8hk+WNpjBW/JATKHyZOD6RfbtUV1c+WxX3w5AblaYGPEcNKfOAhX+dTGGAg==" length="11744529" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Mondrian 1.33.10</title>
       <pubDate>Mon, 12 Oct 2026 12:47:11 +1100</pubDate>
       <sparkle:version>40</sparkle:version>
@@ -175,15 +184,6 @@
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description>&lt;p&gt;Library and Stencils share one drawer beside the studio rail.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Choose Library or Stencils to show that drawer in the same position. Only one can be open at a time; clicking its active rail button closes it so neither is open.&lt;/li&gt;&lt;li&gt;Switching drawers keeps the open drawing, selected connector, pending edits, inspector, and drawer width.&lt;/li&gt;&lt;li&gt;The stencil drawer fills the same height as Library, beside the ribbon and canvas. &lt;strong&gt;Edit Stencils…&lt;/strong&gt; remains at its bottom.&lt;/li&gt;&lt;li&gt;Ribbon and menu shape commands also switch to Stencils. Search Library switches back to Library and focuses search.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
       <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.26.2/Mondrian-1.26.2.dmg" sparkle:edSignature="E9yn2cQPUI9yktpp2SBSRwz6Yh/HEjEtug4XqZ4XOV0n187EjkOXe4h2hy/xfKNVFUlNpWNxH8hLrPegoiMQBw==" length="10356261" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Mondrian 1.26.1</title>
-      <pubDate>Mon, 05 Oct 2026 16:21:19 +1100</pubDate>
-      <sparkle:version>14</sparkle:version>
-      <sparkle:shortVersionString>1.26.1</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description>&lt;p&gt;Open stencils from the studio rail, then choose when to edit them.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;The rail’s Stencils button now opens or closes the stencil drawer and highlights while it is open.&lt;/li&gt;&lt;li&gt;Choose &lt;strong&gt;Edit Stencils…&lt;/strong&gt; at the bottom of the drawer to open the Stencil Editor. The ribbon’s editor button uses the same clear label.&lt;/li&gt;&lt;li&gt;Browse stencils while viewing Library or a folder, or while previewing an old save. Placement remains available only in an editable drawing.&lt;/li&gt;&lt;li&gt;Opening the editor keeps the drawer in place, ready to use when you finish editing.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
-      <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.26.1/Mondrian-1.26.1.dmg" sparkle:edSignature="pLhKQ8j1G8ccMO4+w4MYtw+2zmf5+kEzSnq0ZT9iiNNSto+957zX6COVqKXejYawew2QPLOCrh1dKVRvSQ28BQ==" length="10357893" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

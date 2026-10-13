@@ -6,6 +6,15 @@
     <description>Updates for Mondrian for macOS</description>
     <language>en</language>
     <item>
+      <title>Mondrian 1.33.13</title>
+      <pubDate>Tue, 13 Oct 2026 11:25:12 +1100</pubDate>
+      <sparkle:version>43</sparkle:version>
+      <sparkle:shortVersionString>1.33.13</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description>&lt;p&gt;Inspect boxes while staying focused on the drawing.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Click a box in &lt;strong&gt;Focus View&lt;/strong&gt; to open its details in a compact side panel. Close the panel to give its space back to the drawing, or click another box to inspect it. Dragging still pans without moving objects.&lt;/li&gt;&lt;li&gt;A visible &lt;strong&gt;Exit Focus&lt;/strong&gt; button restores the workspace without leaving macOS fullscreen. The View menu, ⇧⌘F, and the drawing’s right-click menu also exit Focus. Escape no longer acts as the Focus exit shortcut.&lt;/li&gt;&lt;li&gt;Uses macOS’s own fullscreen controls. Removes Mondrian’s fullscreen button, command, and shortcut, and keeps the native window controls available in Focus.&lt;/li&gt;&lt;li&gt;Preserves the chosen workspace inspector tab and visibility, pending drawing edits, and the bounded canvas geometry introduced in 1.33.12.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
+      <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.33.13/Mondrian-1.33.13.dmg" sparkle:edSignature="VlI72YS2V7SzPkZ+PK/yij1TuveMmb6VsIPIG65rN5Q82Ceq+GSFqW1qdoBssqAg84y26NHm6xUyQ/mX63/rCw==" length="11748882" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Mondrian 1.33.12</title>
       <pubDate>Tue, 13 Oct 2026 11:13:24 +1100</pubDate>
       <sparkle:version>42</sparkle:version>
@@ -175,15 +184,6 @@
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description>&lt;p&gt;Delete is now available for every stencil, including built-ins.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Right-click any stencil for &lt;strong&gt;Delete Stencil…&lt;/strong&gt;. The Stencil Editor also always shows its &lt;strong&gt;Delete…&lt;/strong&gt; button when a stencil is selected.&lt;/li&gt;&lt;li&gt;Deleting a built-in removes it from this library’s drawer and discovery while preserving its template for existing drawings and saved history.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Restore Deleted&lt;/strong&gt; in the drawer and editor brings a deleted stencil back, retaining its prior customisation. &lt;strong&gt;Restore Default…&lt;/strong&gt; remains a separate action for customised built-ins.&lt;/li&gt;&lt;li&gt;MCP’s &lt;strong&gt;delete_stencil&lt;/strong&gt; now deletes built-ins too. &lt;strong&gt;restore_stencil&lt;/strong&gt; restores deleted templates or resets a built-in override. Fetch deleted templates with &lt;strong&gt;get_stencil(includeDeleted:true)&lt;/strong&gt;.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
       <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.27.1/Mondrian-1.27.1.dmg" sparkle:edSignature="VE3CVgq2FkDTSataeRn3nYifXlCtGSBCXwvCMR4Ck0wyGDAFRcXoZ3VURzfNuIF7oJPkiykZoUto8e4+q5A/Bg==" length="10420990" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Mondrian 1.27.0</title>
-      <pubDate>Mon, 05 Oct 2026 16:41:20 +1100</pubDate>
-      <sparkle:version>16</sparkle:version>
-      <sparkle:shortVersionString>1.27.0</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description>&lt;p&gt;Manage stencils from the drawer or your connected AI client.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Add a stencil with &lt;strong&gt;+&lt;/strong&gt; in the drawer. Right-click any stencil to open its editor; custom stencils also offer &lt;strong&gt;Delete Stencil…&lt;/strong&gt;, and customised built-ins offer &lt;strong&gt;Restore Default…&lt;/strong&gt;.&lt;/li&gt;&lt;li&gt;MCP now has explicit &lt;strong&gt;create_stencil&lt;/strong&gt; and &lt;strong&gt;update_stencil&lt;/strong&gt; tools. Updates patch only supplied fields, preserving images and other styling, and require the current stencil revision.&lt;/li&gt;&lt;li&gt;Stencil discovery returns names and revisions and uses the same catalogue as the UI, including APM application variants. Deleted custom templates are excluded from discovery while remaining available to existing drawings and saved history.&lt;/li&gt;&lt;li&gt;MCP deletion now preserves drawings and history, matching the UI. Built-in overrides can be customised and restored. Existing &lt;strong&gt;save_stencil&lt;/strong&gt; calls remain supported and now validate templates.&lt;/li&gt;&lt;li&gt;Stale MCP edits and deletions are rejected, as are UI deletions when a stencil changes while its confirmation is open.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Requires macOS 14 or newer on Apple silicon. The installer is Developer ID signed and notarised by Apple.&lt;/p&gt;</description>
-      <enclosure url="https://github.com/acousland/Mondrian-releases/releases/download/v1.27.0/Mondrian-1.27.0.dmg" sparkle:edSignature="IzLeamSo5vv5PzDRJUnOMTLMps/cZAFgj+c9ZJvWsxigD53n/WaSyev2MMUcPNutSXaTXpvo+LbzM+l7qv6YBA==" length="10385363" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
